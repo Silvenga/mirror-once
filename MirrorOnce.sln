@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorOnce", "src\MirrorOnce\MirrorOnce.csproj", "{642F1F93-6083-4D88-8773-61E788BE747B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorOnce.Tests", "tests\MirrorOnce.Tests\MirrorOnce.Tests.csproj", "{4909EA84-2E41-4882-AE84-2035C55EDB18}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{642F1F93-6083-4D88-8773-61E788BE747B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642F1F93-6083-4D88-8773-61E788BE747B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642F1F93-6083-4D88-8773-61E788BE747B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642F1F93-6083-4D88-8773-61E788BE747B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4909EA84-2E41-4882-AE84-2035C55EDB18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4909EA84-2E41-4882-AE84-2035C55EDB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4909EA84-2E41-4882-AE84-2035C55EDB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4909EA84-2E41-4882-AE84-2035C55EDB18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
